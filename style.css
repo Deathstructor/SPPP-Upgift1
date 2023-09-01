@@ -14,17 +14,18 @@ header {
 
 h1 {
     text-align: center;
+    color: whitesmoke;
 }
 
 h2 {
     text-align: center;
+    color: cyan;
 }
 
 .centerContent {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .arbeteBox {
@@ -41,18 +42,43 @@ h2 {
 
 footer {
     text-align: center;
+    font-size: larger;
+    background-color: navajowhite;
+    margin: 0;
+    padding: 2%;
 }
 
-#bread_text1_samme {
+.bread_text1_samme {
     font-size: x-large;
     color:goldenrod;
 }
 
-#bread_text2_samme {
+.bread_text2_samme {
     font-size: x-large;
     color:lightcoral;
 }
 
-#samuel_projekt_titel {
+.samuel_projekt_titel {
     font-size: xx-large;
+    color: black;
+}
+
+.bread_text1_paul {
+    font-size: x-large;
+    color: deeppink;
+}
+
+.bread_text2_paul {
+    font-size: x-large;
+    color: navy;
+}
+
+.paul_projekt_titel {
+    font-size: xx-large;
+    color: black;
+}
+
+.paul_autograph {
+    font-size: x-large;
+    color: blueviolet;
 }
