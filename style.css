@@ -22,7 +22,21 @@ h2 {
 
 .centerContent {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.arbeteBox {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    padding: 0.5%;
+    margin: 1%;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: crimson;
 }
 
 footer {
